@@ -1,0 +1,185 @@
+
+.header{
+    .nav{
+
+        .container{
+
+            .interno{
+                &__block{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-evenly;
+                     margin-left:-190px;
+
+                    
+                    &__menu{
+                        margin-top: 56.5px;
+                        margin-bottom: 56.5px;
+                        display: flex;
+                        align-items: center;
+                        gap: 30px;
+                        &-link{
+                            color:$main-color;
+                        }
+                        &-item{
+                            text-align: center;
+                            font-family: 'Jost', sans-serif;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        .container{
+            .home{
+                &__block{
+                    &-photo{
+                    
+                        position:relative;
+                        left: -210px;
+                    }
+                    .home_style{
+                        position: absolute;
+                        margin-top: -138px;
+                        background:$background-color;
+                        padding: 42px 140px;
+                        border-radius: 37px 37px 0 0;
+                         margin-left: 500px;
+                        h1{
+                        color:$main-color;
+                        font-family:  'DM Serif Display', serif;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 125%;
+                        }
+                        span{
+                            color: $items-color;
+                            font-family: 'Jost', sans-serif;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%;
+                            letter-spacing: 0.22px;
+                         padding-left: 30px;   
+                        }
+                    }
+                    .color-primaryes{
+                        display: flex;
+                        align-items: flex-start;
+                        width: 1201px;
+                        margin-left: 150px;
+                        // margin-left: 350px;
+                        background:#F6F6F6;
+                        border-radius: 70px;
+                        padding: 155px 55px;
+                        margin-top: 200px;
+
+                        &-span{
+                            color:$main-color;
+                            font-family: 'DM Serif Display', serif;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                            margin-left: 64px;
+                        }
+                        &-p{
+                            width: 310px;
+                            color:$items-color;
+                            font-family: 'Jost', sans-serif;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%;
+                            letter-spacing: 0.22px;
+                            margin-left: 64px;
+                        }
+                    }
+                    .primatry{
+                        display: flex;
+                        gap: 35px;
+                        margin-left: 150px;
+                       
+                        &-Primary1{
+                            width: 171px;
+                            height: 171px;
+                            border-radius: 30px;
+                            background:$secondary-color;
+                            p{
+                                position: absolute;
+                                padding-top: 210px;
+                                padding-left: 30px;
+                                display: flex;
+                                width: 115px;
+                                height: 73px;
+                                flex-direction: column;
+                                justify-content: center;
+                                color: $main-color;
+                                text-align: center;
+                                font-family: 'Jost', sans-serif;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 150%;
+                                letter-spacing: 0.2px;
+                            }
+                        }
+                        &-Primary3{
+                            width: 171px;
+                            height: 171px;
+                            border-radius: 30px;
+                            background: #F4F0EC;
+                            
+                            p{
+                                position: absolute;
+                                padding-top: 210px;
+                                padding-left: 30px;
+                                display: flex;
+                                width: 115px;
+                                height: 73px;
+                                flex-direction: column;
+                                justify-content: center;
+                                color:$main-color;
+                                text-align: center;
+                                font-family: 'Jost', sans-serif;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 150%;
+                                letter-spacing: 0.2px;
+                            }
+                        } 
+                        &-Primary2{
+                            width: 171px;
+                            height: 171px;
+                            border-radius: 30px;
+                            background: $main-color;
+                            p{
+                                position: absolute;
+                                padding-top: 210px;
+                                padding-left: 30px;
+                                display: flex;
+                                width: 115px;
+                                height: 73px;
+                                flex-direction: column;
+                                justify-content: center;
+                                color: #292F36;
+                                text-align: center;
+                                font-family: 'Jost', sans-serif;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 150%;
+                                letter-spacing: 0.2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
